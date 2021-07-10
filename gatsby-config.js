@@ -3,5 +3,6 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "blog",
   },
+  pathPrefix: "/reponame",
   plugins: [],
 };
