@@ -3,6 +3,10 @@ module.exports = {
     siteUrl: "https://www.yourdomain.tld",
     title: "blog",
   },
-  pathPrefix: "/reponame",
-  plugins: [],
+  pathPrefix: "/blog",
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typescript`,
+    },
+  ],
 };
